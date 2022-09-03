@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/giohang.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="grid">
+            <section id="header">
+                <div class="header_top">
+                <div class="logo">
+                    <a href="#"><img src="./assets/img/header/logo.png" alt=""></a>
+                </div>
+                
+                <div class="khungtimkiem">
+        
+                    <div class="login">
+                        <a href="login.html">Đăng nhập</a>
+                        <a href="#">/</a>
+                        <a href="dangky.html">Đăng ký</a>
+                    </div>
+                    <div class="item">
+                        <input class="textbox" type="text" value="Search">
+                        <div class="button">
+                            <a href="#"> <img src="./assets/img/header/searchbtn.png" alt=""> </a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="dathang.html">Đặt hàng online</a></li>
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="#">khuyến mãi</a></li>
+                        <li><a class="active" href="index.html">giới thiệu</a></li>
+                        <li><a href="lienhe.html"> liên hệ</a></li>
+                        <li><a href="#">tuyển dụng</a></li>
+                        <li class="cart"> <a href="giohang.html"><img src="./assets/img/header/cart.png" alt=""></a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="language">
+                    <a href="#" > <img src="./assets/img/header/vi.png" alt="vn" title="Vietnamese"></a>
+                    <a href="#" > <img src="./assets/img/header/uk.png" alt="uk" title="English"></a>
+                    <a href="#" > <img src="./assets/img/header/kor.png" alt="kor" title="Korean"></a>
+                    <a href="#" > <img src="./assets/img/header/ja.png" alt="ja" title="Japanese"></a>
+                </div>   
+            </section>
+            <section id="main">
+                <div class="body-content">
+                    <div class="content-title">
+                        <h2>Giỏ hàng</h2>
+                    </div>
+                    <div class="main-shopping">
+                        <div class="cart-part1">
+                            <table class="tbl-cart-order">
+                                <tr>
+                                    <th></th>
+                                    <th>Sản phẩm</th>
+                                    <th>Đơn giá</th>
+                                    <th>Số lượng</th>
+                                    <th>Thành tiền</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><img src="./assets/img/shopping_cart/Glass.png" alt="Glass"></td>
+                                    <td>
+                                        <div class="ten-sp">apple, mint, celery + lime juice</div>
+                                        <div class="size">+ Extra</div>
+                                    </td>
+                                    <td>
+                                        <div class="gia">187.000đ</div>
+                                    </td>
+                                    <td><input class="qty" type="text" value="1"></td>
+                                    <td><div class="gia">375.000đ</div>
+                                        <td><a href="#" class="btn-close"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="./assets/img/shopping_cart/dishes1.png" alt="Glass"></td>
+                                    <td>
+                                        <div class="ten-sp">bean and glass noodle salad</div>
+                                    </td>
+                                    <td>
+                                        <div class="gia">225.000đ</div>
+                                    </td>
+                                    <td><input class="qty" type="text" value="2"></td>
+                                    <td><div class="gia">225.000đ</div>
+                                        <td><a href="#" class="btn-close"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="add-other-pro">
+                            <span>Đặt thêm</span>
+                        </div>
+                        <div class="car-part2">
+                            <div class="related-pro">
+                                <div class="text-title">
+                                    <span>Base on your selection, you may be interested in the following
+                                         items:
+                                    </span>
+                                </div>
+        
+                                <div class="pro-image">
+                                    <div class="img-detail"><img src="./assets/img/shopping_cart/dishes2.png" alt=""></div>
+                                
+                                <div class="img-descript">
+                                   <div class="title-pro">
+                                       <span>beef letture wraps</span>
+                                   </div>
+                                   <div class="price-pro">
+                                       <span>price:</span>
+                                       <b>300.000đ</b>
+                                   </div>
+                        
+                                  <div class="btn-adder"><a class="btn-submit" type="button">Add to cart</a></div>
+                                  </div>
+                                 </div>
+                            </div>
+                               
+                            <div class="discount-code">
+                                <div class="font1col2">DISCOUNT CODE</div>
+                                <div class="font2col2">Enter your coupon code if you have one</div>
+                                <div class="inbut-code">
+                                    <input class="textinput" type="text" name="couponcode">
+                                    <button class="btn-submit" type="button">SUBMIT</button>
+                                </div>
+                                <div class="font1col2">GIFTS CARDS</div>
+                                <div class="font2col2">Enter the gifts card code</div>
+                                <div class="inbut-code">
+                                    <input class="textinput" type="text" name="couponcode">
+                                    <button class="btn-submit" type="button">SUBMIT</button>
+                                </div>
+                            </div>
+        
+                            <div class="checkout">
+                                <div class="item">
+                                    <div class="title">Subtotal</div>
+                                    <div class="price">600.000đ</div>
+                                </div>
+                                <div class="item">
+                                    <div class="title">Voucher</div>
+                                    <div class="price">50.000đ</div>
+                                </div>
+                                <div class="total-price">
+                                    <div class="title">Band Total</div>
+                                    <div class="price">550.000đ</div>
+                                </div>
+                                <div class="item">
+                                    <a class="btn-submit" href="thanhtoan.html">Proceed to Checkout</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="footer">
+                <div class="footer_left">
+                    <ul>
+                        <li class="item">@ The Al Fresco's Groud 2019</li>
+                        <li class="item"><a href="#"><i class="fa-brands fa-facebook"></i></i> </a></li>
+                        <li class="item"><a href="#" ><i class="fa-brands fa-youtube"></i></i></a></li>
+                        <li class="item"><a href="#" ><i class="fa-brands fa-wpexplorer"></i></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer_right">
+                    <ul>
+                        <li><a href="#"> Sơ đồ site</a></li>
+                        <li><a href="nhuongquyen.html"> Nhượng quyền</a></li>
+                        <li><a href="baomat.html"> Chính sách bảo mật</a></li>
+                        <li><a href="dieukhoan.html"> điều kiện sử dụng</a></li>
+                        <li><a href="headoffice.html"> head ofice</a></li>
+                    </ul>
+                </div>
+                
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
